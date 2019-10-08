@@ -33,7 +33,7 @@ init:
 
     cd C:\openvswitch
 
-    python3 -m pip install six pypiwin32 --disable-pip-version-check
+    python37 -m pip install six pypiwin32 --disable-pip-version-check
 
 build_script:
 - '"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\VsDevCmd"'
